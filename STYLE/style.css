@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #AF1740;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin: 5rem 0;
+    text-shadow: 1px 5px #000;
+    font-size: 3.5rem;
+}
+
+.container{
+    display: flex;
+    /* width: 800px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.container p{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
